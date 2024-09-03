@@ -1,0 +1,43 @@
+.banner {
+    background-color: #DE3163; /* Cherry Red */
+    color: white;
+    height: 150px; /* Medium Height */
+    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:8rem;
+  }
+  .content{
+    padding-right:20px;
+    margin-right:40px;
+  }
+  
+  
+  .get-started-btn {
+    background-color: white;
+    color: #DE3163;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #fff5f8;
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .get-started-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

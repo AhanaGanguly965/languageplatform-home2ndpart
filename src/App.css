@@ -1,0 +1,12 @@
+.App{
+  width:90;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align:center;
+  background-color: #003151;
+}
+h2{
+  margin-top:40px;
+  margin-bottom: 20px;
+}
